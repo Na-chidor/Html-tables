@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Assignment #3</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .image-container img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align: center;">HTML Assignment #3</h1>
+
+    <!-- Top Table -->
+    <table>
+        <tr>
+            <td>left</td>
+            <td>center</td>
+            <td>right</td>
+        </tr>
+        <tr>
+            <td>left</td>
+            <td>center</td>
+            <td>right</td>
+        </tr>
+        <tr>
+            <td>left</td>
+            <td>center</td>
+            <td>right</td>
+        </tr>
+    </table>
+
+    <!-- Second Table -->
+    <table style="margin-top: 20px;">
+        <tr>
+            <td colspan="6" style="width: 20%;"></td>
+        </tr>
+        <tr>
+            <td rowspan="4"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" rowspan="2"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <table style="margin-top: 20px;">
+        <tr>
+            <td></td>
+            <td style="width:60%"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="4"></td>
+            <td></td>
+            <td rowspan="4"></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td style="width:60%"></td>
+            <td></td>
+        </tr>
+
+    </table>
+    
+
+    <!-- Table Image -->
+    <table style="margin-top: 20px;">
+        <tr>
+            <td style="width: 20%;"></td>
+            <td class="image-container" style="width: 60%;">
+                <img src="myimage.avif" alt="Scenic Image">
+            </td>
+            <td style="width: 20%;"></td>
+        </tr>
+    </table>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>Created by Nahom Biniyam</p>
+        <p>Put the Date Here</p>
+    </div>
+
+</body>
+</html>
